@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "award_features",
+  "info": {
+    "singularName": "award-feature",
+    "pluralName": "award-features",
+    "displayName": "Award Feature"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "teaser": {
+      "type": "string"
+    }
+  }
+}
