@@ -1,9 +1,11 @@
 
 import Home from './pages/home/Home';
 import About from './pages/about/About';
+import Icofont from 'react-icofont';
 
 import './App.css';
 import './utilities/common.css';
+
 
 import {
   BrowserRouter as Router,
@@ -13,7 +15,6 @@ import {
 
 function App() {
   return (
-
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />

@@ -6,11 +6,11 @@ import Header from "../../components/template/header/header";
 const About = () => {
     return (
         <>
-        <Header />
-        <div>
-            About Page
-        </div>
-        <Footer />
+            <Header />
+            <div>
+                About Page
+            </div>
+            <Footer />
         </>
     );
 }

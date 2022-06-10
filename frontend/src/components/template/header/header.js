@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom';
+import logo from  '../../../utilities/img/logo.png';
+
+
 
 import './header.css';
 
@@ -28,7 +31,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navigation" id="navbar">
                 <div className="container">
                     <a className="navbar-brand" href="index.html">
-                        <img src="images/logo.png" alt="" className="img-fluid" />
+                        <img src={logo} alt="" className="img-fluid" />
                     </a>
 
                     <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +43,7 @@ const Header = () => {
                             <li className="nav-item active">
                                 <Link className="nav-link" to="/">Home</Link>
                             </li>
-                            <li className="nav-item"><a className="nav-link" href="about.html">About</a></li>
+                            <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
                             <li className="nav-item"><a className="nav-link" href="service.html">Services</a></li>
 
                             <li className="nav-item dropdown">
